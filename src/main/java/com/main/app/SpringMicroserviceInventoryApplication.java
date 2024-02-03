@@ -19,11 +19,11 @@ public class SpringMicroserviceInventoryApplication {
 	CommandLineRunner loadData(InventoryRepository inventoryRepository) {
 		return args -> {
 			Inventory inventory = new Inventory();
-			inventory.setSkuCode("iphone_15");
+			inventory.setSkucode("iphone_15");
 			inventory.setQuantity(100);
 			
 			Inventory inventory1 = new Inventory();
-			inventory1.setSkuCode("iphone_15_black");
+			inventory1.setSkucode("iphone_15_black");
 			inventory1.setQuantity(0);
 			
 			inventoryRepository.save(inventory);
