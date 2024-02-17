@@ -19,6 +19,8 @@ docker network create my-network
 ### Docker creation
 
 ```bash
+docker-compose up -d
+or
 docker-compose -f <docker-filename> up -d
 ```
 
